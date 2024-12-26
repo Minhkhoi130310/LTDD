@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_BanDienThoai"
+        tools:targetApi="31">
+        <activity
+            android:name=".TrangKHXemCTHoaDon"
+            android:exported="false" />
+        <activity
+            android:name=".TrangDuyetMotDonHang"
+            android:exported="false" />
+        <activity
+            android:name=".TrangDuyetDonHang"
+            android:exported="false" />
+        <activity
+            android:name=".TrangXemDHdamua"
+            android:exported="false" />
+        <activity
+            android:name=".TrangMuaHang"
+            android:exported="false" />
+        <activity
+            android:name=".TrangGioHang"
+            android:exported="false" />
+        <activity
+            android:name=".TrangCTSP"
+            android:exported="false" />
+        <activity
+            android:name=".TrangTimKiem"
+            android:exported="false" />
+        <activity
+            android:name=".TrangKhuyenMai"
+            android:exported="false" />
+        <activity
+            android:name=".TrangThongBao"
+            android:exported="false" />
+        <activity
+            android:name=".TrangXemThongTinMotKH"
+            android:exported="false" />
+        <activity
+            android:name=".TrangThemSPMoi"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".TrangDangNhap"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TrangXemThongTinKH"
+            android:exported="false" />
+        <activity
+            android:name=".TrangMyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TrangUpdateSP"
+            android:exported="false" />
+        <activity
+            android:name=".TrangAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".TrangDangKy"
+            android:exported="true" />
+    </application>
+
+</manifest>
